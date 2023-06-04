@@ -1,0 +1,16 @@
+version: '3.7'
+
+services:
+  # 開発用
+  app:
+    build:
+      context: .
+      dockerfile: Dockerfile
+      target: dev
+    ports:
+      - '3333:3000'
+      - '6666:6006' # story point
+    tty: true
+    # init: true
+    volumes:
+      - ./:/app/

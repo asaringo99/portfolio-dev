@@ -14,16 +14,17 @@
 
 @keyframes floating {
     0% {
+        background-color: rgb(124, 255, 165);
         transform: translateY(0);
     }
     100% {
-        transform: translateY(-10px);
+        transform: translateY(-20px);
     }
 }
 
 .container:hover {
-    opacity: 0.6;
-    background-color: aquamarine;
+    opacity: 1;
+    background-color: rgb(222, 255, 59);
     border-color: black;
     transform: translateY(10px);
 }

@@ -1,0 +1,22 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 250px;
+    width: 500px;
+    background-color :black;
+    box-shadow: 0 5px 5px rgba(0, 0, 0, 0.5);
+    border-radius: 5%;
+    transition-property: background-color;
+    transition-property: border-radius;
+    transition-duration: 0.1s;
+    transition-timing-function: ease-in-out;
+    transition-delay: 0s;
+    transition: transform 0.2s ease-out;
+}
+
+.container:hover {
+    transform: translateY(-5px);
+    background-color: rgb(0, 0, 0, 0.5);
+}

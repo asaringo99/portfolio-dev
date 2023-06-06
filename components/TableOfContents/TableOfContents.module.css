@@ -1,0 +1,50 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    position: relative;
+    padding-left: 10%;
+    z-index: 9999;
+}
+
+.tableOfContents {
+    position: fixed;
+    top: 50%;
+    left: 1%;
+    margin-left: 3%;
+    transform: translateY(-50%);
+    /* transform: translateX(-50%); */
+}
+
+.tableOfContents a {
+    padding: 7px;
+    font-size: 20px;
+    display: block;
+    margin-bottom: 10px;
+    color: rgb(126, 126, 126);
+    text-decoration: none;
+    transition: all 0.5s ease-in-out;
+}
+
+.tableOfContents a:hover {
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: rgb(0, 0, 0);
+    font-size: 50px;
+    font-weight: bold;
+}
+
+.active {
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: rgb(0, 0, 0);
+    font-size: 80px;
+    transition: all 0.5s ease;
+    font-weight: bold;
+}
+
+.active:hover {
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: rgb(0, 0, 0);
+    font-size: 120px;
+    font-weight: bold;
+}

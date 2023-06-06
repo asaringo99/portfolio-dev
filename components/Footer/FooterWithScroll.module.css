@@ -1,0 +1,51 @@
+.footerContainer {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 600px;
+    background-color: #202020;
+}
+
+.scrollButton {
+    position: absolute;
+    bottom: 400px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 300px;
+    height: 300px;
+    border: 1px #202020;
+    border-radius: 50%;
+    background-color: #202020;
+    transition: all 0.3s ease-in-out;
+    /* cursor: pointer; */
+}
+
+.scrollButton:hover {
+    transform: translateY(-20px);
+    font-size: 60px;
+}
+
+.scrollButton span {
+    font-size: 60px;
+    position: absolute;
+    top: 50px;
+    color: #ffffff;
+    transition: all 0.2s ease-in-out;
+}
+
+.textContainer {
+    font-size: 40px;
+    font-weight: bold;
+    color: azure;
+    font-style: italic;
+    padding: 30px;
+}
+
+.copyright {
+    position: absolute;
+    color: rgb(255, 255, 255, 0.5);
+    bottom: 10px;
+}

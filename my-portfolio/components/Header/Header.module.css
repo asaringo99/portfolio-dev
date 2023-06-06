@@ -1,0 +1,39 @@
+.nav {
+    position: fixed;
+    height: 60px;
+    width: 100%;
+    top: 0;
+    left: 0;
+    background-color: #f8f9fa;
+    padding: 10px;
+    display: flex;
+    z-index: 9999;
+    justify-content: space-around;
+    opacity: 0.9;
+}
+
+.nav a {
+    display: flex;
+    /* margin-right: 15px;
+    margin-left: 15px; */
+    height: 100%;
+    width: 20%;
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+    justify-content: space-around;
+    align-items: center;
+    transition: background-color 0.6s ease;
+    border-radius: 100px;
+}
+
+.nav a:hover {
+    color: white;
+    background-color: #000000;
+}
+
+.items {
+    height: 70;
+    width: 30%;
+    display: flex;
+    justify-content: space-around;
+}
